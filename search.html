@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <style>
+        h1 {text-align: center;}
+        h1 {color:rgb(128, 0, 255);}
+        h2 {color:rgb(7, 18, 144);}
+    legend {color:rgb(28, 166, 48);}
+     label {color:rgb(79, 28, 166);}
+    option {color:rgb(110, 173, 20);}
+         p {color:rgb(158, 138, 10);}   
+    </style>
+      <header>
+             <h1>Вибор автомобіли</h1>
+      </header>
+             <h2>У нас тільки провірині обівльенія</h2>
+                <form>
+                     <fieldset>
+                           <legend>Марка</legend>
+                         <p>
+                            <input type="radio" name="size" id="size_1" value="small">
+                                 <label for="size_1">Ford</label>
+                            <input type="radio" name="size" id="size_2" value="medium">
+                                 <label for="size_2">Opel</label>
+                            <input type="radio" name="size" id="size_3" value="large">
+                                 <label for="size_3">Honda</label>
+                            <input type="radio" name="size" id="size_1" value="small">
+                                 <label for="size_1">Toyota</label>
+                            <input type="radio" name="size" id="size_2" value="medium">
+                                 <label for="size_2">Mercedes</label>
+                            <input type="radio" name="size" id="size_3" value="large">
+                                 <label for="size_3">Smart</label>
+                            <input type="radio" name="size" id="size_1" value="small">
+                                 <label for="size_1">Ferrari</label>
+                            <input type="radio" name="size" id="size_2" value="medium">
+                                 <label for="size_2">Porsche</label>
+                        </p> 
+                     </fieldset>             
+                 </form>
+                        <p> 
+                           <form action="/action_page.php">
+                               <label for="Тип кузова">Тип кузова:</label>
+                                   <select name="кузов" id="кузов">
+                                       <option value="седан">седан</option>
+                                       <option value="хєтчбєк">хєтчбєк</option>
+                                       <option value="купе">купе</option>
+                                       <option value="лимузин">лимузин</option>
+                                       <option value="микроавтобус">микроавтобус</option>
+                                       <option value="родсте">родстер</option>
+                                       <option value="ландо">ландо</option>
+                                       <option value="спайдер">спайдер</option>
+                                       <option value="пикап">пикап</option>
+                                    </optgroup>
+                                </select>
+                        </p>
+                       <select name="user_city">
+                              <optgroup label="Россия">
+                                 <option value="1">Москва</option>
+                                 <option value="2">Санкт-Петербург</option>
+                                 <option value="3">Новосибирск</option>
+                          </optgroup>
+                              <optgroup label="Украина">
+                                 <option value="4">Киев</option>
+                                 <option value="5">Харьков</option>
+                                 <option value="6">Львов</option>
+                           </optgroup>
+                              <optgroup label="Беларусь">
+                                 <option value="7">Минск</option>
+                                 <option value="8">Бобруйск</option>
+                                 <option value="9">Гомель</option>
+                           </optgroup>
+                      </select>
+                              <form action="/action_page.php">
+                                    <label for="Цена">Цена:</label>
+                                        <select name="Цена" id="Цена">
+                                              <option value="500-1200$">500-1200$</option>
+                                              <option value="1200-1900$">1200-1900$</option>
+                                              <option value="1900-2700$">1900-2700$</option>
+                                              <option value="2700-3600$">2700-3600$</option>
+                                              <option value="3600-4500$">3600-4500$</option>
+                                              <option value="4500-10.000$">4500-10.000$</option>
+                                              <option value="10.000-15.000$">10.000-15.000$</option>
+                                            </optgroup>
+                                        </select>
+                              <form action="/action_page.php">
+                                    <label for="Год выпуска">Год выпуска:</label>
+                                        <select name="Год выпуска" id="Год выпуска">
+                                              <option value="1990-1992">1990-1992</option>
+                                              <option value="1992-1994">1992-1994</option>
+                                              <option value="1994-1996">1994-1996</option>
+                                              <option value="1996-1998">1996-1998</option>
+                                              <option value="1998-2000">1998-2000</option>
+                                              <option value="2000-2008">2000-2008</option>
+                                              <option value="2008-2020">2008-2020</option>
+                                            </optgroup>
+                                        </select>
+                    <form>
+                         <fieldset>
+                             <legend>Состояние</legend>
+                                <p>                  
+                                   <input type="checkbox" name="size" id="size_1" value="small">
+                                         <label for="size_1">Битая</label>
+                                   <input type="checkbox" name="size" id="size_2" value="medium">
+                                         <label for="size_2">B кридите</label>
+                                   <input type="checkbox" name="size" id="size_3" value="large">
+                                         <label for="size_3">не крашаний</label>
+                                   <input type="checkbox" name="size" id="size_1" value="small">
+                                         <label for="size_1">Не битий не крашений</label>
+                                   <input type="checkbox" name="size" id="size_2" value="medium">
+                                         <label for="size_2">На разборку</label>
+                                   <input type="checkbox" name="size" id="size_3" value="large">
+                                         <label for="size_3">Без двигатьеля</label>
+                                </p> 
+                          </fieldset>
+                     </form>
+                               <p>
+                                  <form action="/action_page.php">
+                                     <label for="Тип топлива">Тип топлива:</label>
+                                        <select name="Тип топлива" id="Тип топлива">
+                                            <option value="Бинзин">Бинзин</option>
+                                            <option value="Дизель">Дизель</option>
+                                          </optgroup>
+                                       </select>
+                              <form action="/action_page.php">
+                                   <label for="Тип коробки передач">Тип коробки передач:</label>
+                                      <select name="Тип коробки передач" id="Тип коробки передач">
+                                          <option value="Автомат">Автомат</option>
+                                          <option value="Механічиский">Механічиский</option>             
+                                     </select>
+                              <form action="/action_page.php">
+                                     <label for="цвет">Цвет:</label>
+                                        <select name="Цвет" id="Цвет">
+                                             <option value="Красний">Красний</option>
+                                             <option value="Жолтий">Жолтий</option>
+                                             <option value="Зелений">Зелений</option>
+                                             <option value="Синьий">Синьий</option>
+                                             <option value="Чорний">Чорний</option>
+                                             <option value="Фіолетовий">Фіолетовий</option>
+                                             <option value="Білий">Білий</option>
+                                             <option value="Бордовий">Бордовий</option>
+                                             <option value="Сірий">Сірий</option>
+                                            </optgroup>
+                                       </select>
+                              <form action="/action_page.php">
+                                     <label for="Комфорт">Комфорт:</label>
+                                          <select name="Комфорт" id="Комфорт">
+                                               <option value="Люкс">Люкс</option>
+                                               <option value="Кожаный салон">Кожаный салон</option>
+                                               <option value="Обичний салон">Обичний салон</option>
+                                            </optgroup>
+                                         </select>
+                                 </p>
+                <br>
+                  <input type="submit" value="Искать">
+                <br>
+        </form>
+    </body>
+</html>
